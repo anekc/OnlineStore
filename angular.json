@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "OnlineShopFront"
+    }
+  },
+  "defaultProject": "OnlineShopFront",
+  "cli": {
+    "analytics": "350862ad-1175-420b-abef-afa75a19d8c4"
+  }
 }
