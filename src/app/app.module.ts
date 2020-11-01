@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AdminModule } from './Admin/pages/admin.module';
+import { PublicModule } from './Public/pages/public.module';
 
 
 
@@ -12,6 +14,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    AdminModule,
+    PublicModule,
     AppRoutingModule
   ],
   providers: [],
